@@ -114,8 +114,9 @@
               "src/assets/vendors/general/jquery.repeater/src/repeater.js",
               "src/assets/vendors/general/dompurify/dist/purify.js",
               "src/assets/default/base/scripts.bundle.js",
-              "src/assets/vendors/custom/fullcalendar/fullcalendar.bundle.js",
+              "src/assets/vendors/custom/datatables/datatables.bundle.js",
               "src/assets/vendors/custom/jquery-ui/jquery-ui.bundle.js",
+              "src/assets/vendors/custom/fullcalendar/fullcalendar.bundle.js",
               "src/assets/app/bundle/app.bundle.js"
             ],
             "es5BrowserSupport": true

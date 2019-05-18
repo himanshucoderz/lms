@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+//import "../../assets/vendors/custom/jquery-ui/jquery-ui.bundle.js";
 declare var $
 @Component({
   selector: 'app-map',

@@ -14,6 +14,7 @@ import { TranscriptComponent } from './transcript/transcript.component';
 import { MapComponent } from './map/map.component';
 import { CompanyDocComponent } from './company-doc/company-doc.component';
 import { OjtComponent } from './ojt/ojt.component';
+import { ClassComponent } from './class/class.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { OjtComponent } from './ojt/ojt.component';
     TranscriptComponent,
     MapComponent,
     CompanyDocComponent,
-    OjtComponent
+    OjtComponent,
+    ClassComponent
   ],
   imports: [
     BrowserModule,
