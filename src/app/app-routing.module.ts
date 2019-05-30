@@ -7,9 +7,11 @@ import { MapComponent } from './map/map.component';
 import { CompanyDocComponent } from './company-doc/company-doc.component';
 import { OjtComponent } from './ojt/ojt.component';
 import { ClassComponent } from './class/class.component';
+import { CompRegisterComponent } from './comp-register/comp-register.component';
 
 const routes: Routes = [
 	{ path: '',component: LandingComponent },
+	{ path: 'register',component: CompRegisterComponent },
 	{ path: 'class',component: ClassComponent },
 	{ path: 'course',component: LibraryComponent },
 	{ path: 'transcript',component: TranscriptComponent },
