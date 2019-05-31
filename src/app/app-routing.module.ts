@@ -8,7 +8,7 @@ import { CompanyDocComponent } from './company-doc/company-doc.component';
 import { OjtComponent } from './ojt/ojt.component';
 import { ClassComponent } from './class/class.component';
 import { CompRegisterComponent } from './comp-register/comp-register.component';
-
+import { LearningPathComponent } from './learning-path/learning-path.component';
 const routes: Routes = [
 	{ path: '',component: LandingComponent },
 	{ path: 'register',component: CompRegisterComponent },
@@ -17,7 +17,8 @@ const routes: Routes = [
 	{ path: 'transcript',component: TranscriptComponent },
 	{ path: 'map',component: MapComponent },
 	{ path: 'company-docs',component: CompanyDocComponent },
-	{ path: 'ojt',component: OjtComponent }
+	{ path: 'ojt',component: OjtComponent },
+	{ path: 'paths',component: LearningPathComponent }
 ];
 
 @NgModule({

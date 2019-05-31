@@ -16,6 +16,7 @@ import { CompanyDocComponent } from './company-doc/company-doc.component';
 import { OjtComponent } from './ojt/ojt.component';
 import { ClassComponent } from './class/class.component';
 import { CompRegisterComponent } from './comp-register/comp-register.component';
+import { LearningPathComponent } from './learning-path/learning-path.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CompRegisterComponent } from './comp-register/comp-register.component';
     CompanyDocComponent,
     OjtComponent,
     ClassComponent,
-    CompRegisterComponent
+    CompRegisterComponent,
+    LearningPathComponent
   ],
   imports: [
     BrowserModule,
